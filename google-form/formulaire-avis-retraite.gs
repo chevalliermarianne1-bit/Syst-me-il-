@@ -9,10 +9,12 @@ function creerFormulaire() {
   var form = FormApp.create('Ton avis sur la retraite « Retour à soi » 🌿');
 
   form.setDescription(
-    'Merci d\'avoir partagé ce moment avec nous 🌿\n' +
-    'Ton retour est précieux : il nous aide à faire grandir la retraite ' +
-    'et à aider d\'autres personnes à oser venir.\n' +
-    'Cela prend environ 5 minutes.'
+    'Merci du fond du cœur d\'avoir partagé avec nous cette belle retraite 🌿\n\n' +
+    'Ton retour est précieux : il nous aide à faire grandir la retraite, ' +
+    'à ajuster les prochaines éditions et à donner à d\'autres personnes ' +
+    'l\'élan d\'oser venir.\n\n' +
+    'Prends quelques minutes pour nous partager ton ressenti. ' +
+    'Chacun de tes mots compte pour nous. Merci infiniment 💛'
   );
   form.setCollectEmail(false);
   form.setAllowResponseEdits(false);
